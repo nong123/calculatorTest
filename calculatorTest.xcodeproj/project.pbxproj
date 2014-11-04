@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE010D006402738BBF9FD7BD /* libPods-calculatorTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B7259B9F4F06A6375CA607 /* libPods-calculatorTest.a */; };
 		FB1209E21A078A540025BC68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1209E11A078A540025BC68 /* main.m */; };
 		FB1209E51A078A540025BC68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1209E41A078A540025BC68 /* AppDelegate.m */; };
 		FB1209E81A078A540025BC68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1209E71A078A540025BC68 /* ViewController.m */; };
@@ -14,6 +15,16 @@
 		FB1209ED1A078A540025BC68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1209EC1A078A540025BC68 /* Images.xcassets */; };
 		FB1209F01A078A540025BC68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1209EE1A078A540025BC68 /* LaunchScreen.xib */; };
 		FB1209FC1A078A550025BC68 /* calculatorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1209FB1A078A550025BC68 /* calculatorTestTests.m */; };
+		FB120A1D1A078AC30025BC68 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A071A078AC20025BC68 /* MASCompositeConstraint.m */; };
+		FB120A1E1A078AC30025BC68 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A0A1A078AC20025BC68 /* MASConstraint.m */; };
+		FB120A1F1A078AC30025BC68 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A0C1A078AC20025BC68 /* MASConstraintMaker.m */; };
+		FB120A201A078AC30025BC68 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A0E1A078AC20025BC68 /* MASLayoutConstraint.m */; };
+		FB120A211A078AC30025BC68 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A121A078AC20025BC68 /* MASViewAttribute.m */; };
+		FB120A221A078AC30025BC68 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A141A078AC20025BC68 /* MASViewConstraint.m */; };
+		FB120A231A078AC30025BC68 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A161A078AC20025BC68 /* NSArray+MASAdditions.m */; };
+		FB120A241A078AC30025BC68 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A191A078AC20025BC68 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FB120A251A078AC30025BC68 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120A1B1A078AC20025BC68 /* View+MASAdditions.m */; };
+		FBD5A96E1A08A0ED00173ABB /* CalculateView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD5A96D1A08A0ED00173ABB /* CalculateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03960C008FF9DA8358ED8778 /* Pods-calculatorTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculatorTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-calculatorTest/Pods-calculatorTest.release.xcconfig"; sourceTree = "<group>"; };
+		40B7259B9F4F06A6375CA607 /* libPods-calculatorTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-calculatorTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E849B2AACDBDD32C0CA99A68 /* Pods-calculatorTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculatorTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-calculatorTest/Pods-calculatorTest.debug.xcconfig"; sourceTree = "<group>"; };
 		FB1209DC1A078A540025BC68 /* calculatorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculatorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1209E01A078A540025BC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB1209E11A078A540025BC68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,31 @@
 		FB1209F51A078A550025BC68 /* calculatorTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1209FA1A078A550025BC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB1209FB1A078A550025BC68 /* calculatorTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorTestTests.m; sourceTree = "<group>"; };
+		FB120A061A078AC20025BC68 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FB120A071A078AC20025BC68 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FB120A081A078AC20025BC68 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FB120A091A078AC20025BC68 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FB120A0A1A078AC20025BC68 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FB120A0B1A078AC20025BC68 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FB120A0C1A078AC20025BC68 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FB120A0D1A078AC20025BC68 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FB120A0E1A078AC20025BC68 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FB120A0F1A078AC20025BC68 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FB120A101A078AC20025BC68 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FB120A111A078AC20025BC68 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FB120A121A078AC20025BC68 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FB120A131A078AC20025BC68 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FB120A141A078AC20025BC68 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FB120A151A078AC20025BC68 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FB120A161A078AC20025BC68 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FB120A171A078AC20025BC68 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FB120A181A078AC20025BC68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FB120A191A078AC20025BC68 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FB120A1A1A078AC20025BC68 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FB120A1B1A078AC20025BC68 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FB120A1C1A078AC20025BC68 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FBD5A96C1A08A0ED00173ABB /* CalculateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateView.h; sourceTree = "<group>"; };
+		FBD5A96D1A08A0ED00173ABB /* CalculateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE010D006402738BBF9FD7BD /* libPods-calculatorTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +100,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C04F0D25E9FC6D7030CD0EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E849B2AACDBDD32C0CA99A68 /* Pods-calculatorTest.debug.xcconfig */,
+				03960C008FF9DA8358ED8778 /* Pods-calculatorTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4452F4686EDFA97047A3B3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40B7259B9F4F06A6375CA607 /* libPods-calculatorTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB1209D31A078A540025BC68 = {
 			isa = PBXGroup;
 			children = (
 				FB1209DE1A078A540025BC68 /* calculatorTest */,
 				FB1209F81A078A550025BC68 /* calculatorTestTests */,
 				FB1209DD1A078A540025BC68 /* Products */,
+				FB120A051A078AC20025BC68 /* Masonry */,
+				2C04F0D25E9FC6D7030CD0EC /* Pods */,
+				4452F4686EDFA97047A3B3BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +145,8 @@
 				FB1209E41A078A540025BC68 /* AppDelegate.m */,
 				FB1209E61A078A540025BC68 /* ViewController.h */,
 				FB1209E71A078A540025BC68 /* ViewController.m */,
+				FBD5A96C1A08A0ED00173ABB /* CalculateView.h */,
+				FBD5A96D1A08A0ED00173ABB /* CalculateView.m */,
 				FB1209E91A078A540025BC68 /* Main.storyboard */,
 				FB1209EC1A078A540025BC68 /* Images.xcassets */,
 				FB1209EE1A078A540025BC68 /* LaunchScreen.xib */,
@@ -119,6 +181,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FB120A051A078AC20025BC68 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FB120A061A078AC20025BC68 /* MASCompositeConstraint.h */,
+				FB120A071A078AC20025BC68 /* MASCompositeConstraint.m */,
+				FB120A081A078AC20025BC68 /* MASConstraint+Private.h */,
+				FB120A091A078AC20025BC68 /* MASConstraint.h */,
+				FB120A0A1A078AC20025BC68 /* MASConstraint.m */,
+				FB120A0B1A078AC20025BC68 /* MASConstraintMaker.h */,
+				FB120A0C1A078AC20025BC68 /* MASConstraintMaker.m */,
+				FB120A0D1A078AC20025BC68 /* MASLayoutConstraint.h */,
+				FB120A0E1A078AC20025BC68 /* MASLayoutConstraint.m */,
+				FB120A0F1A078AC20025BC68 /* Masonry.h */,
+				FB120A101A078AC20025BC68 /* MASUtilities.h */,
+				FB120A111A078AC20025BC68 /* MASViewAttribute.h */,
+				FB120A121A078AC20025BC68 /* MASViewAttribute.m */,
+				FB120A131A078AC20025BC68 /* MASViewConstraint.h */,
+				FB120A141A078AC20025BC68 /* MASViewConstraint.m */,
+				FB120A151A078AC20025BC68 /* NSArray+MASAdditions.h */,
+				FB120A161A078AC20025BC68 /* NSArray+MASAdditions.m */,
+				FB120A171A078AC20025BC68 /* NSArray+MASShorthandAdditions.h */,
+				FB120A181A078AC20025BC68 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FB120A191A078AC20025BC68 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FB120A1A1A078AC20025BC68 /* View+MASAdditions.h */,
+				FB120A1B1A078AC20025BC68 /* View+MASAdditions.m */,
+				FB120A1C1A078AC20025BC68 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB1209FF1A078A550025BC68 /* Build configuration list for PBXNativeTarget "calculatorTest" */;
 			buildPhases = (
+				38721715A38D63539723817C /* Check Pods Manifest.lock */,
 				FB1209D81A078A540025BC68 /* Sources */,
 				FB1209D91A078A540025BC68 /* Frameworks */,
 				FB1209DA1A078A540025BC68 /* Resources */,
+				C24E8DECF0CDD26C25F922CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +308,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38721715A38D63539723817C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C24E8DECF0CDD26C25F922CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calculatorTest/Pods-calculatorTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB1209D81A078A540025BC68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB120A241A078AC30025BC68 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FB120A221A078AC30025BC68 /* MASViewConstraint.m in Sources */,
+				FB120A1D1A078AC30025BC68 /* MASCompositeConstraint.m in Sources */,
+				FB120A231A078AC30025BC68 /* NSArray+MASAdditions.m in Sources */,
 				FB1209E81A078A540025BC68 /* ViewController.m in Sources */,
 				FB1209E51A078A540025BC68 /* AppDelegate.m in Sources */,
+				FB120A201A078AC30025BC68 /* MASLayoutConstraint.m in Sources */,
 				FB1209E21A078A540025BC68 /* main.m in Sources */,
+				FB120A251A078AC30025BC68 /* View+MASAdditions.m in Sources */,
+				FB120A211A078AC30025BC68 /* MASViewAttribute.m in Sources */,
+				FB120A1E1A078AC30025BC68 /* MASConstraint.m in Sources */,
+				FB120A1F1A078AC30025BC68 /* MASConstraintMaker.m in Sources */,
+				FBD5A96E1A08A0ED00173ABB /* CalculateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +480,7 @@
 		};
 		FB120A001A078A550025BC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E849B2AACDBDD32C0CA99A68 /* Pods-calculatorTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = calculatorTest/Info.plist;
@@ -353,6 +491,7 @@
 		};
 		FB120A011A078A550025BC68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03960C008FF9DA8358ED8778 /* Pods-calculatorTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = calculatorTest/Info.plist;
@@ -414,6 +553,7 @@
 				FB120A011A078A550025BC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB120A021A078A550025BC68 /* Build configuration list for PBXNativeTarget "calculatorTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +562,7 @@
 				FB120A041A078A550025BC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
